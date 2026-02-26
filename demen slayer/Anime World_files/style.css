@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    margin-top: 100px;
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #fff;
+    color: #ff4e8a;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #ff4e8a;
+    color: white;
+}
